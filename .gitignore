@@ -1,0 +1,27 @@
+# === 模型权重 & 训练 Checkpoint ===
+runs/
+output/
+out_no_finetune/
+out_adapt/
+iterative_pruning_output/
+hf_cache/
+
+# === 大型分析结果包 ===
+all_analysis_results.tar/
+
+# === 模型文件 ===
+*.safetensors
+*.pth
+
+# === 对抗训练产出的模型目录 ===
+对抗测试+textattack训练/adv_trained_mix/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
